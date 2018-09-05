@@ -7,6 +7,11 @@
 //
 
 #import "LPDViewController.h"
+#import <openssl/rsa.h>
+#include <openssl/pem.h>
+#include <openssl/bio.h>
+#include <openssl/sha.h>
+
 
 @interface LPDViewController ()
 

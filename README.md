@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## Build
+
+https://github.com/x2on/OpenSSL-for-iPhone
+
 ## Installation
 
 LPDOpenSSL is available through [CocoaPods](https://cocoapods.org). To install

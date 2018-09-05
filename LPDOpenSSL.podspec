@@ -22,21 +22,20 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/cnkcq/LPDOpenSSL'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cnkcq' => 'chengquan.wang@ele.me' }
   s.source           = { :git => 'https://github.com/cnkcq/LPDOpenSSL.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.header_dir          = 'openssl' # 必须指定 指定后 引用方式为
+  #import <openssl/rsa.h> #include <openssl/pem.h> #include <openssl/bio.h> #include <openssl/sha.h>
 
-  s.source_files = 'LPDOpenSSL/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LPDOpenSSL' => ['LPDOpenSSL/Assets/*.png']
-  # }
+  s.public_header_files = "LPDOpenSSL/include/openssl/*.h"
+  s.vendored_libraries  = "LPDOpenSSL/lib/*.a"
+  s.preserve_paths      = "LPDOpenSSL/lib/*.a"
+  s.libraries           = 'crypto', 'ssl'
+  s.requires_arc        = false
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.libraries = ['stdc++','c++.1','c++abi','z.1.1.3','icucore']
 end

@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417BFD269BD5AB16F1F097F75F00B356 /* Pods-LPDOpenSSL_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9D00B1A40FB731AB17EFFD59DC0283 /* Pods-LPDOpenSSL_Example-dummy.m */; };
+		5D4E688AA1EDE6FA0302D2531DF24F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8D311A908C0231C1D40961C1ED566BE8 /* Pods-LPDOpenSSL_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9818F6F7E197E0D4B21DAE0BCDD19E /* Pods-LPDOpenSSL_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9A20F8CA483B25301F1887C57EFD37 /* Pods-LPDOpenSSL_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B14CEEDA96624E74E2AA2C12BDBAD2F /* Pods-LPDOpenSSL_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6C3D20BDA7C60D7AF00AC15DE298651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F1866DD64A9D2A790D7DB757915F1577 /* Pods-LPDOpenSSL_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1FA8298E79C9F6B59FDFA11E86989B /* Pods-LPDOpenSSL_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60B0B5C03C122A355E4C6C4B03DF61E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9A6CB2C0D00BE125BF75259B324BE5;
+			remoteInfo = "Pods-LPDOpenSSL_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0073C67D7355A3BB365B362CE13038F7 /* Pods-LPDOpenSSL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDOpenSSL_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1005849E66887CABB9ED789FE2415018 /* Pods_LPDOpenSSL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LPDOpenSSL_Tests.framework; path = "Pods-LPDOpenSSL_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108F232DF43EA6BC1EE214A53121E80F /* Pods-LPDOpenSSL_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LPDOpenSSL_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18CAE1D39F5E8D311A0BC055D2BFD4C5 /* Pods-LPDOpenSSL_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LPDOpenSSL_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2045349658A3C157DAEAF117207D916A /* LPDOpenSSL.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LPDOpenSSL.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2231DD1E1EBBDE2BEDAC89C35F2879F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2B14CEEDA96624E74E2AA2C12BDBAD2F /* Pods-LPDOpenSSL_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LPDOpenSSL_Example-umbrella.h"; sourceTree = "<group>"; };
+		30E825C39D8AB3C3D219FFEA07273B5B /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = LPDOpenSSL/lib/libcrypto.a; sourceTree = "<group>"; };
+		354E7B60AC8050DB3A5F62A6EB498865 /* Pods-LPDOpenSSL_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDOpenSSL_Tests-resources.sh"; sourceTree = "<group>"; };
+		369A8CA93A8F5A39CA059AA61D602724 /* Pods-LPDOpenSSL_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LPDOpenSSL_Tests.modulemap"; sourceTree = "<group>"; };
+		40E935E4E62244A95AF8841A6A729BBC /* Pods-LPDOpenSSL_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LPDOpenSSL_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		55BBDD7D56655175411FBADDFE52D773 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561376FAF97D22015880FBEF303C74DA /* Pods-LPDOpenSSL_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDOpenSSL_Example-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AFFE75C29353EA388F57CDB86172F63 /* Pods-LPDOpenSSL_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDOpenSSL_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5C9F7682AABFF697F88821747432ED98 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = LPDOpenSSL/lib/libssl.a; sourceTree = "<group>"; };
+		7FD8A8E00F32D52F9A58ECBDECEA870F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A428CC5CD099F9A8010808616A3432 /* Pods-LPDOpenSSL_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LPDOpenSSL_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B159266F4C263214C26403518FF9911 /* Pods-LPDOpenSSL_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDOpenSSL_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9F00E1443692AD75C057360F35E39CCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9F1FA8298E79C9F6B59FDFA11E86989B /* Pods-LPDOpenSSL_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LPDOpenSSL_Tests-dummy.m"; sourceTree = "<group>"; };
+		9FD27EA471DE4ECA2AEEB4A6A32F4B7D /* Pods_LPDOpenSSL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LPDOpenSSL_Example.framework; path = "Pods-LPDOpenSSL_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9818F6F7E197E0D4B21DAE0BCDD19E /* Pods-LPDOpenSSL_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LPDOpenSSL_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BCA1AF8A7D98DAB3AC937BB136AD5592 /* Pods-LPDOpenSSL_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LPDOpenSSL_Example.modulemap"; sourceTree = "<group>"; };
+		CE7D24A79D3451D102BB0C19F9256C3D /* Pods-LPDOpenSSL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDOpenSSL_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DC9D00B1A40FB731AB17EFFD59DC0283 /* Pods-LPDOpenSSL_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LPDOpenSSL_Example-dummy.m"; sourceTree = "<group>"; };
+		E054738EC6D3435F7513D55D17DF6EDB /* Pods-LPDOpenSSL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDOpenSSL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E087158B4936C35779C91C3ADCE2F59C /* Pods-LPDOpenSSL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDOpenSSL_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B95AAD7FB40199D3D48B0884CC8717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4E688AA1EDE6FA0302D2531DF24F58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EA2E0659F6D4DC3599B7ED1B26D05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C3D20BDA7C60D7AF00AC15DE298651 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2711F370F23744065DF67533CDEFE81F /* Pods-LPDOpenSSL_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55BBDD7D56655175411FBADDFE52D773 /* Info.plist */,
+				369A8CA93A8F5A39CA059AA61D602724 /* Pods-LPDOpenSSL_Tests.modulemap */,
+				86A428CC5CD099F9A8010808616A3432 /* Pods-LPDOpenSSL_Tests-acknowledgements.markdown */,
+				18CAE1D39F5E8D311A0BC055D2BFD4C5 /* Pods-LPDOpenSSL_Tests-acknowledgements.plist */,
+				9F1FA8298E79C9F6B59FDFA11E86989B /* Pods-LPDOpenSSL_Tests-dummy.m */,
+				5AFFE75C29353EA388F57CDB86172F63 /* Pods-LPDOpenSSL_Tests-frameworks.sh */,
+				354E7B60AC8050DB3A5F62A6EB498865 /* Pods-LPDOpenSSL_Tests-resources.sh */,
+				AA9818F6F7E197E0D4B21DAE0BCDD19E /* Pods-LPDOpenSSL_Tests-umbrella.h */,
+				E054738EC6D3435F7513D55D17DF6EDB /* Pods-LPDOpenSSL_Tests.debug.xcconfig */,
+				CE7D24A79D3451D102BB0C19F9256C3D /* Pods-LPDOpenSSL_Tests.release.xcconfig */,
+			);
+			name = "Pods-LPDOpenSSL_Tests";
+			path = "Target Support Files/Pods-LPDOpenSSL_Tests";
+			sourceTree = "<group>";
+		};
+		2A93124B975365362417CC0C7CC67F51 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2231DD1E1EBBDE2BEDAC89C35F2879F5 /* LICENSE */,
+				2045349658A3C157DAEAF117207D916A /* LPDOpenSSL.podspec */,
+				9F00E1443692AD75C057360F35E39CCA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		33116882CE4DF5B73E090C3932BC38A8 /* LPDOpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				B6683E9D9820677CC7801E320C9F23C3 /* Frameworks */,
+				2A93124B975365362417CC0C7CC67F51 /* Pod */,
+			);
+			name = LPDOpenSSL;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4CB1493248B038CFAD12D0EFDA89DBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD27EA471DE4ECA2AEEB4A6A32F4B7D /* Pods_LPDOpenSSL_Example.framework */,
+				1005849E66887CABB9ED789FE2415018 /* Pods_LPDOpenSSL_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A5E725D58DEE19C7CCE98960E0B576DD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4CB1493248B038CFAD12D0EFDA89DBCF /* Products */,
+				B485F65FFEE0E89CD4CAC551D9D5097E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A5E725D58DEE19C7CCE98960E0B576DD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33116882CE4DF5B73E090C3932BC38A8 /* LPDOpenSSL */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B485F65FFEE0E89CD4CAC551D9D5097E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C58C3059F20BF79CFD9F3B7074D8D25F /* Pods-LPDOpenSSL_Example */,
+				2711F370F23744065DF67533CDEFE81F /* Pods-LPDOpenSSL_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6683E9D9820677CC7801E320C9F23C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E825C39D8AB3C3D219FFEA07273B5B /* libcrypto.a */,
+				5C9F7682AABFF697F88821747432ED98 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C58C3059F20BF79CFD9F3B7074D8D25F /* Pods-LPDOpenSSL_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7FD8A8E00F32D52F9A58ECBDECEA870F /* Info.plist */,
+				BCA1AF8A7D98DAB3AC937BB136AD5592 /* Pods-LPDOpenSSL_Example.modulemap */,
+				108F232DF43EA6BC1EE214A53121E80F /* Pods-LPDOpenSSL_Example-acknowledgements.markdown */,
+				40E935E4E62244A95AF8841A6A729BBC /* Pods-LPDOpenSSL_Example-acknowledgements.plist */,
+				DC9D00B1A40FB731AB17EFFD59DC0283 /* Pods-LPDOpenSSL_Example-dummy.m */,
+				9B159266F4C263214C26403518FF9911 /* Pods-LPDOpenSSL_Example-frameworks.sh */,
+				561376FAF97D22015880FBEF303C74DA /* Pods-LPDOpenSSL_Example-resources.sh */,
+				2B14CEEDA96624E74E2AA2C12BDBAD2F /* Pods-LPDOpenSSL_Example-umbrella.h */,
+				E087158B4936C35779C91C3ADCE2F59C /* Pods-LPDOpenSSL_Example.debug.xcconfig */,
+				0073C67D7355A3BB365B362CE13038F7 /* Pods-LPDOpenSSL_Example.release.xcconfig */,
+			);
+			name = "Pods-LPDOpenSSL_Example";
+			path = "Target Support Files/Pods-LPDOpenSSL_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02457B5B727DC0E456B2DFD4145833C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9A20F8CA483B25301F1887C57EFD37 /* Pods-LPDOpenSSL_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344EF874A295297D2E7F3CEA746E1226 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D311A908C0231C1D40961C1ED566BE8 /* Pods-LPDOpenSSL_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D842EF1EDDD1186717BFBE6169362FC /* Pods-LPDOpenSSL_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E50A9FB34ECA622F0F2BBD001C3C35 /* Build configuration list for PBXNativeTarget "Pods-LPDOpenSSL_Tests" */;
+			buildPhases = (
+				9C85E65FF4AE10560F1B2F716D75F293 /* Sources */,
+				43B95AAD7FB40199D3D48B0884CC8717 /* Frameworks */,
+				344EF874A295297D2E7F3CEA746E1226 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041B9B79275104341869262326A1D4CC /* PBXTargetDependency */,
+			);
+			name = "Pods-LPDOpenSSL_Tests";
+			productName = "Pods-LPDOpenSSL_Tests";
+			productReference = 1005849E66887CABB9ED789FE2415018 /* Pods_LPDOpenSSL_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA9A6CB2C0D00BE125BF75259B324BE5 /* Pods-LPDOpenSSL_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEDC65924A117359F4B4E86E901D51E /* Build configuration list for PBXNativeTarget "Pods-LPDOpenSSL_Example" */;
+			buildPhases = (
+				F41EED7A87AA0F933AC2808ADA303D3F /* Sources */,
+				B4EA2E0659F6D4DC3599B7ED1B26D05C /* Frameworks */,
+				02457B5B727DC0E456B2DFD4145833C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LPDOpenSSL_Example";
+			productName = "Pods-LPDOpenSSL_Example";
+			productReference = 9FD27EA471DE4ECA2AEEB4A6A32F4B7D /* Pods_LPDOpenSSL_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4CB1493248B038CFAD12D0EFDA89DBCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9A6CB2C0D00BE125BF75259B324BE5 /* Pods-LPDOpenSSL_Example */,
+				2D842EF1EDDD1186717BFBE6169362FC /* Pods-LPDOpenSSL_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C85E65FF4AE10560F1B2F716D75F293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1866DD64A9D2A790D7DB757915F1577 /* Pods-LPDOpenSSL_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41EED7A87AA0F933AC2808ADA303D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417BFD269BD5AB16F1F097F75F00B356 /* Pods-LPDOpenSSL_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041B9B79275104341869262326A1D4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LPDOpenSSL_Example";
+			target = DA9A6CB2C0D00BE125BF75259B324BE5 /* Pods-LPDOpenSSL_Example */;
+			targetProxy = 60B0B5C03C122A355E4C6C4B03DF61E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22F5A179E983159FFABD8BAE7B265488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E054738EC6D3435F7513D55D17DF6EDB /* Pods-LPDOpenSSL_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LPDOpenSSL_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LPDOpenSSL_Tests/Pods-LPDOpenSSL_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25FC6E4B670C653474436C04C3ED2396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0073C67D7355A3BB365B362CE13038F7 /* Pods-LPDOpenSSL_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LPDOpenSSL_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LPDOpenSSL_Example/Pods-LPDOpenSSL_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D86B0A32C86EC164C6FF9B11E2A680E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E087158B4936C35779C91C3ADCE2F59C /* Pods-LPDOpenSSL_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LPDOpenSSL_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LPDOpenSSL_Example/Pods-LPDOpenSSL_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F00D4A803368680844610FDD9A20BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7D24A79D3451D102BB0C19F9256C3D /* Pods-LPDOpenSSL_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LPDOpenSSL_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LPDOpenSSL_Tests/Pods-LPDOpenSSL_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEDC65924A117359F4B4E86E901D51E /* Build configuration list for PBXNativeTarget "Pods-LPDOpenSSL_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86B0A32C86EC164C6FF9B11E2A680E3 /* Debug */,
+				25FC6E4B670C653474436C04C3ED2396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E50A9FB34ECA622F0F2BBD001C3C35 /* Build configuration list for PBXNativeTarget "Pods-LPDOpenSSL_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F5A179E983159FFABD8BAE7B265488 /* Debug */,
+				F00D4A803368680844610FDD9A20BE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
